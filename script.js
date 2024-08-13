@@ -2,7 +2,6 @@
 const textArea2 = document.getElementById("campo-mensagem");
 const imagem = document.getElementById("img-mensagem");
 
-// Adiciona um ouvinte de evento de clique ao botão e esconde a imagem do boneco azul   
 function clicado() {
     if (imagem == true) {
         imagem.style.display="inline-block";
